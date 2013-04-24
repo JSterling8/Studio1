@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App & Activity Titles -->
+    <string name="app_name">Thatcher\'s Funeral</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Thatcher\'s Funeral</string>
+    <string name="title_activity_splash">Splash Activity</string>
+   	<string name="title_activity_info_fragment">InfoFragment</string>
+    <string name="title_activity_bio_fragment">BioFragment</string>
+	
+	<!-- Event Info Strings -->
+	<string name="dateTitle">Date:</string>
+	<string name="dateInfo">Wednesday 17th April 2013</string>
+	<string name="timeTitle">Time:</string>
+	<string name="timeInfo">11:00</string>
+	<string name="locationTitle">Location:</string>
+	<string name="locationInfo">St. Paul\'s Cathedral, London</string>
+	<string name="whatToExpectTitle">What To Expect:</string>
+	<string name="whatToExpectInfo">The funeral procession will start at the Palace of Westminster and end at St. Paul\'s Cathedral.  The RAF, Army, and Navy will line the route, and Thatcher will receive military honours.  There will be a Falkland\'s theme and three military bands will play.  The event is by invitation only, and about 2,000 invitations were sent out, including one to the Queen, who plans to attend with Prince Philip.  Although the funeral is not open to the public, BBC1 will cover the event from 9:15 AM to 12:15 PM.  The funeral is estimated to cost £10,000,000.  Want to donate?  If you pay taxes, then you already have.</string>
+
+	<!-- Bio Strings -->
+	<string name="livedTitle">Lived:</string>
+	<string name="livedInfo">13 October 1925 – 8 April 2013</string>
+	<string name="atAGlanceInfo">Margaret Thatcher, nicknamed the \"Iron Lady\", was the Prime Minister of England from 1979 to 1990.  She was the leader of the Conservative party and is credited with reforming union procedures to lessen their power, teaming up with Ronald Reagan to plan the Soviet\'s downfall, reclaiming the Falklands, and privatising many British industries.  Conversely, she is also blamed for the economic downfall in Britain by destroying communities and industries, entering an unnecessary war with Argentina, providing tax cuts to the rich, and espousing an every-man-for-himself philosophy.</string>
+	<string name="atAGlanceTitle">At a Glance:</string>
+	
+	<!-- Map Strings -->
+	<string name="directions">Open Google Maps for Directions</string>
+	
+	
+</resources>

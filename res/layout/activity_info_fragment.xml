@@ -1,0 +1,95 @@
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/tvDateInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvLocationInfo"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvDateTitle"
+            android:text="@string/dateInfo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvLocationInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvTimeInfo"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/tvLocationTitle"
+            android:text="@string/locationInfo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvDateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/dateTitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/CustomBlue" />
+
+        <TextView
+            android:id="@+id/tvTimeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvLocationInfo"
+            android:text="@string/timeTitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/CustomBlue" />
+
+        <TextView
+            android:id="@+id/tvLocationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvLocationInfo"
+            android:layout_alignBottom="@+id/tvLocationInfo"
+            android:layout_alignLeft="@+id/tvTimeTitle"
+            android:layout_margin="0dp"
+            android:text="@string/locationTitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/CustomBlue" />
+
+        <TextView
+            android:id="@+id/tvTimeInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvLocationInfo"
+            android:layout_below="@+id/tvDateInfo"
+            android:text="@string/timeInfo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvWhatToExpectTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLocationInfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/whatToExpectTitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/CustomBlue" />
+
+        <TextView
+            android:id="@+id/tvWhatToExpectInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvTimeTitle"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/tvWhatToExpectTitle"
+            android:scrollbars="vertical"
+            android:text="@string/whatToExpectInfo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
